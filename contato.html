@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Cafeína & Código</title>
+</head>
+<body>
+
+    <header>
+        <img src="imagens/logo.png" alt="Logo da empresa Cafeína e Código">
+        <h1>Cafeína & Código</h1>
+        <p>Coworking e Cafeteria para Desenvolvedores</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#fale-conosco">Fale Conosco</a></li>
+                <li><a href="#informacoes">Informações de Contato</a></li>
+                <li><a href="#horario">Horário de Atendimento</a></li>
+                <li><a href="index.html">Voltar ao Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="fale-conosco">
+            <h2>Fale Conosco</h2>
+            <p>Preencha o formulário abaixo para tirar dúvidas, reservar uma mesa ou enviar sugestões.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </p>
+
+                    <p>
+                        <label for="telefone">Telefone:</label><br>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(19) 99999-9999" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Solicitação</legend>
+
+                    <p>
+                        <label for="assunto">Assunto:</label><br>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione um assunto...</option>
+                            <option value="duvidas">Dúvidas Gerais</option>
+                            <option value="reserva">Reserva de Espaço / Mesa</option>
+                            <option value="eventos">Eventos e Workshops</option>
+                            <option value="sugestoes">Sugestões e Elogios</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="6" cols="40" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </section>
+
+        <aside>
+            <section id="informacoes">
+                <h2>Informações de Contato</h2>
+                <p><strong>Endereço:</strong> Rua dos Desenvolvedores, 1024 - Bairro Tech</p>
+                <p><strong>E-mail:</strong> contato@cafeinaecodigo.com.br</p>
+                <p><strong>Telefone:</strong> (19) 3456-7890</p>
+                <p><strong>WhatsApp:</strong> (19) 98765-4321</p>
+            </section>
+
+            <section id="horario">
+                <h2>Horário de Atendimento</h2>
+                <ul>
+                    <li><strong>Segunda a Sexta:</strong> 08:00 às 22:00</li>
+                    <li><strong>Sábados:</strong> 09:00 às 18:00</li>
+                    <li><strong>Domingos e Feriados:</strong> Fechado</li>
+                </ul>
+            </section>
+        </aside>
+
+    </main>
+
+    <br>
+    <p>Clique no botão para voltar ao menu</p>
+    <button><a href="index.html" target="_self">Menu</a></button>
+    
+    <footer>
+        <p>&copy; 2026 Cafeína & Código - Projeto Integrador LIMA</p>
+    </footer>
+
+</body>
+</html>
